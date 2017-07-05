@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 export default class Elapse extends Component {
 
@@ -11,7 +11,7 @@ export default class Elapse extends Component {
   }
 
   render () {
-    const {elapse} = this.props
+    const { elapse } = this.props
     return (
       <h1>
         Seconds Elapsed: {elapse}
