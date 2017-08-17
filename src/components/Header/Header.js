@@ -36,7 +36,7 @@ const bookTextColor = { color: 'rgb(159, 120, 96)' }
 const tvTextColor = { color: 'rgb(228, 168, 19)' }
 const musicTextColor = { color: 'rgb(42, 184, 204)' }
 
-export const Header = () => (
+const Header = () => (
   <div>
     <div className='header-container'>
       <h1 className='title'>豆瓣</h1>
